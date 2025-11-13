@@ -9,34 +9,45 @@ body
     color:#2E2F42;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
-    text-align: middle;
+    line-height: 1.17;
 }
 .logo-web
 {
     color:#4D5AE5;
 }
-.menu
+.menu-link
 {
+    color:#2E2F42;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
+    font-weight: 500;
+    line-height: 1.5;
 }
-.adress
-{   
-    color: #434455;
+.menu-link:hover, .menu-link:focus
+{
+    color:#4D5AE5;
+}
+.contact-link
+{
+    color:#434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
+}
+.contact-link:hover, .contact-link:focus
+{
+    color:#4D5AE5;
 }
 .main-section
 {   
-    color:#FFFFFF;
     background-color: #2E2F42;
+    text-align: center;
+}
+.main-title
+{
+    color:#FFFFFF;
     font-size: 56px;
     font-weight: 700;
-    line-height: 60px;
-    text-align: center;
+    line-height: 1.07;
 }
 .button
 {
@@ -44,7 +55,8 @@ body
     color:#FFFFFF;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
+    cursor: pointer;
     
 }
 .team
@@ -52,48 +64,74 @@ body
     background-color: #F4F4FD; 
     color:#2E2F42;
 }
-.team-members li{background-color:#FFFFFF;}
-.team-members p{color:#434455;}
+.team h2
+{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    text-align: center;
+}
+.team-card
+{
+    background-color:#FFFFFF;
+    text-align: center;
+}
+.team-card h3
+{
+    color:#2E2F42;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    
+}
+.team-card p
+{
+    color:#434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
 .port
 {   
     color:#2E2F42;
     font-size: 36px;
     font-weight: 700;
-    line-height: 40px;
+    line-height: 1.11;
+    text-align: center;
 }
 .ports
 {   
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
 }
 .ports p
 {   
     color:#434455;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
 }
-footer
+.footer-content
 {
     background-color: #2E2F42;
     color:#F4F4FD;
+}
+.footer-content p
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
 }
 .foot-logo
 {
     color:#F4F4FD;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
+    line-height: 1.17;
 }
 .foot-web
 {
     color:#4D5AE5;
-}
-.foot-logo p
-{
-    color:#F4F4FD;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
 }
